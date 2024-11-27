@@ -1,0 +1,106 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+    .bebas-neue-regular {
+        font-family: "Bebas Neue", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        outline: none;
+      }
+      
+}
+
+body{
+    background: url("/IMG/definitivo\ backgroung.jpg")
+}
+
+.container{
+    background-color: white;
+    width: 500px;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 100px auto 0;
+}
+
+.input-task{
+    border: none;
+    border-radius: 5px;
+    width: 300px;
+    height: 30px;
+    padding-left: 10px;
+}
+
+.button-task{
+    border: none;
+    border-radius: 5px;
+    height: 40px;
+    background-color: blueviolet;
+    color: white;
+    font-size: 17px;
+    padding: 0 15px ;
+    float: right;
+    cursor: pointer;
+    font-weight: 700;
+}
+
+.button-task:hover{
+    opacity: 0.8;
+
+}
+
+.list-tasks{
+    width: 100%;
+    list-style: none;
+    margin-top: 30px;
+    
+}
+
+.task{
+    background-color: #f2f2f2;
+    box-shadow: 1px 4px 10px rgba(0, 0, 0, 0.2);
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 15px;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    cursor: pointer;
+}
+
+.button-task:active{
+    opacity: 0.5;
+}
+
+img{
+    height: 25px;
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+}
+
+.task:hover img{
+    opacity: 1;
+}
+
+.done {
+    background-color: #8fac55;
+    text-decoration: line-through;
+}
+
+.done {
+    text-decoration: line-through;
+    color: gray;
+    opacity: 0.7;
+}
+
+.check-icon {
+    cursor: pointer;
+}
+
+.task {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 10px 0;
+}
